@@ -1,0 +1,9 @@
+# This is a basic workflow that is manually triggered
+
+name: PW-Feature
+
+# Controls when the action will run. Workflow runs when manually triggered using the UI
+# or API.
+on:
+  repository_dispatch:
+    types: [PW-Feature]
